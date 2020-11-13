@@ -191,8 +191,8 @@ padding-top: 50px;
 -o-transition: all 1s ease-out;
 -webkit-transition: all 1s ease-out;
 }
-.blu-bt :hover {
-    border: 2px dotted ;
+.blu-bt:hover {
+    border: 2px dotted;
 	color:#5585a2;
     background: rgba(0,0,0,0);
     -webkit-transform: scale(1);
