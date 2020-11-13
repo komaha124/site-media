@@ -13,7 +13,7 @@
 
 @media (max-width:1200px) {
     #sec-3 {
-        background: url(../img/3.jpg) no-repeat 92% -7px;
+        background: url(../img/3.jpg) no-repeat 92% 1px;
     }
     .sec-2-flex{
         width: 780px;
@@ -23,9 +23,12 @@
         padding-top: 70px;
     }
     .title-black {
-        margin: -55px 0 0 0;
+        margin: 0 auto;
+        width: 390px;
     }
-     
+    .sec-1-block{
+        width: 600px;
+    }
     .bl-wrap-1 {
         width: 50%;
     }
@@ -42,18 +45,43 @@
     .bl-wrap-3 {
         width: 38%;
     }
+    .sec-4-flex {
+        width: 700px;
+    }
+    .sec-4-flex1 {
+        width: 100%;
+    }
+    .sec-4-flex2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .big {
+        width: 700px;
+    }
+    .no-big {
+        width: 347px;
+        height: 300px;
+        margin: 0px 0px 1px;
+    }
+    .bottom-linea {
+        width: 346px;
+        padding: 0px 0px 15px 0px;
+    }
+    
 }
 
 @media (max-width:780px) {
     #sec-1 {
-        background: url(../img/1.jpg) no-repeat 58% -7px;
+        background: url(../img/1.jpg) no-repeat 58% -1px;
     }
     #sec-3 {
-        background: url(../img/3.jpg) no-repeat 92% -7px;
+        background: url(../img/3.jpg) no-repeat 92% 0px;
     }
     .sec-1-block{
         padding-left: 85px;
         padding-top: 220px;
+        width: 400px;
     }
     .rass {
          width: 100%;
@@ -83,7 +111,31 @@
     .title {
         font-size: 65px;
     }
- 
+    .sec-4-flex {
+        width: 400px;
+    }
+    .sec-4-flex1 {
+        width: 100%;
+    }
+    .sec-4-flex2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .big {
+        width: 400px;
+        height: 300px;
+    }
+    .no-big {
+        width: 197px;
+        height: 200px;
+    }
+    #gal{
+        margin: 0 auto;
+    }
+    .bottom-linea {
+        width: 196px;
+    }
   
 }
 
@@ -92,9 +144,7 @@
         background: url(../img/1.jpg) no-repeat 58% -43px;
         height: 700px;
     }
-    .title-black{
-        font-size: 60px;
-    }
+    
     .sec-1-block {
         padding-left: 20px;
     }
@@ -104,6 +154,7 @@
     .title-black {
         margin: -162px 0 0 0;
         width: 280px;
+        font-size: 60px;
     }
     #sec-3 {
         background: url(../img/3.jpg) no-repeat 84%;
@@ -119,6 +170,26 @@
         width: 280px;
     }
     .bl-3 {
+        width: 280px;
+    }
+    .center{
+        width: 300px;
+    }
+    .sec-4-flex {
+        width: 300px;
+    }
+    .big {
+        width: 300px;
+        height: 250px;
+    }
+    .no-big {
+        width: 148px;
+        height: 125px;
+    }
+    .bottom-linea {
+        width: 147px;
+    }
+    .sec-1-block {
         width: 280px;
     }
     
