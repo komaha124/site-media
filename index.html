@@ -156,7 +156,7 @@
             </p>
             <form action="https://formspree.io/f/mwkwogpa" method="POST" id="form_id2"target="_blank" onsubmit="javascript:return validate('form_id2','email');">
                <div class="form-flex">
-                 <input name="email" type="email" placeholder="Your email address..." required class="flex-for1">
+                 <input name="email" type="email" var email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/; placeholder="Your email address..." required class="flex-for1">
                 <button class="btn-form flex-for2" type="submit">SUBSCRIBE</button>
             </form>
         </div>
@@ -210,7 +210,7 @@
             <div class="folov-form" id="form">
                 <form action="https://formspree.io/f/mwkwogpa" id="form_id" method="post" onsubmit="javascript:return validate('form_id','email');" target="_blank"> 
                    <input class="form_input" name="name" type="text" placeholder="Auskteez Tran" required>
-                   <input class="form_input" id="email" name="email" type="email" placeholder="Your email..."required>
+                   <input class="form_input" id="email" name="email" var email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/; type="email" placeholder="Your email..."required>
                    <input class="form_input" id="tel" name="phone" type="tel" placeholder="Your phone number..." required>
                     <textarea class="textarea" name="comment"  placeholder="Your message..."></textarea>
                    <div class="footer">
